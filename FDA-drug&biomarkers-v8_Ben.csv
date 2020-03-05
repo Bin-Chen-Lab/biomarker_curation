@@ -1,0 +1,125 @@
+"","Drug","Targets","Disease","Enrichment.biomarker","Biomarker.Gene.ID","Biomarker.relationship","Biomarker.logical.conditions","Marker.type","Note","drug_drugbank_standard","drug_pubchem","biomarker_ensembl_standard","diseases_EFO_MONDO_standard","biomarker_term"
+"1","Abacavir","NRTI","Infectious disease/ADIS","HLA-B",NA,NA,NA,"polymorphism",NA,"DB01048","29969962","ENSG00000234745","EFO_0005741","HLA-B POLYMORPHISM NA"
+"2","Abemaciclib","CDK4; CDK6","Oncology/(HER2)-negative advanced or metastatic breast cancer","ESR, ERBB2","2099, 2064","positive, negative","AND","protein expression, protein expression & amplification",NA,"DB12001","46220502","ENSG00000091831, ENSG00000141736","MONDO_0007254","ESR PROTEIN EXPRESSION POSITIVE AND ERBB2 PROTEIN EXPRESSION & AMPLIFICATION NEGATIVE"
+"3","Ado-Trastuzumab 
+Emtansine","HER2","Oncology/Her2-positive breast cancer","ERBB2","2064",NA,NA,"protein expression & amplification",NA,"NA","NA","ENSG00000141736","MONDO_0000618","ERBB2 PROTEIN EXPRESSION & AMPLIFICATION NA"
+"4","Afatinib","EGFR (L858R); EGFR (L858R/T790M); EGFR (wt); HER2; ErbB4","Oncology/lung cancer","EGFR",NA,NA,NA,"mutation",NA,"DB08916","10184653","ENSG00000146648","MONDO_0008903","EGFR MUTATION NA"
+"5","Alectinib","ALK; ALK (F1174L); ALK (R1275Q); INSR; VEGFR2 (KDR)","Oncology/Non-small cell lung cancer that has spread to other parts of the body","ALK",NA,NA,NA,"protein expression",NA,"DB11363","49806720","ENSG00000171094","EFO_0003060","ALK PROTEIN EXPRESSION NA"
+"6","Alpelisib (1)","PI3Kα; p110α; p110γ","Oncology/Advanced or metastatic breast cancer","ESR, ERBB2, PIK3CA",NA,"positive, negative,positive","AND,AND","protein expression, protein expression & amplification,  mutation",NA,"NA","NA","ENSG00000091831, ENSG00000141736, ENSG00000121879","MONDO_0007254","ESR PROTEIN EXPRESSION POSITIVE AND ERBB2 PROTEIN EXPRESSION & AMPLIFICATION NEGATIVE AND PIK3CA MUTATION POSITIVE"
+"7","Amifampridine","potassium channel","Neurology/Lambert-eaton myasthenia syndrome in adults","NAT2",NA,NA,NA,"polymorphism",NA,"DB11640","9920716","ENSG00000156006","Orphanet_183616","NAT2 POLYMORPHISM NA"
+"8","Amifampridine Phosphate","potassium channel","Neurology/Lambert-eaton syndrome","NAT2",NA,NA,NA,"polymorphism",NA,"NA","9920716","ENSG00000156006","Orphanet_183616","NAT2 POLYMORPHISM NA"
+"9","Amitriptyline","5-HT; 5-HT2; 5-HT4; Norepinephrine receptor; σ1","Psychiatry/depression","CYP2D6",NA,NA,NA,"polymorphism",NA,"DB00321","11065","ENSG00000100197","EFO_0003761","CYP2D6 POLYMORPHISM NA"
+"10","Amoxapine","GlyT1b; GlyT2a","Psychiatry/depression","CYP2D6",NA,NA,NA,"polymorphism",NA,"DB00543","2170","ENSG00000100197","EFO_0003761","CYP2D6 POLYMORPHISM NA"
+"11","Amphetamine",NA,"Psychiatry/Attention deficit hyperactivity disorder,obesity","CYP2D7",NA,NA,NA,"polymorphism",NA,"DB00182","5826","ENSG00000205702","EFO_0003888","CYP2D7 POLYMORPHISM NA"
+"12","Anastrozole","Aromatase","Oncology/Breast cancer in postmenopausal women","ESR, PGR",NA,NA,NA,"protein expression",NA,"DB01217","2187","ENSG00000091831, ENSG00000082175","MONDO_0007254","failed"
+"13","Arformoterol (1)","β2-adrenergic receptor","Pulmonary/Chronic obstructive pulmonary disease","UGT1A1, CYP2D6",NA,"positive, positive","AND/OR","polymorphism, polymorphism",NA,"NA","40430269","ENSG00000241635, ENSG00000100197","EFO_0000341","UGT1A1 POLYMORPHISM POSITIVE AND/OR CYP2D6 POLYMORPHISM POSITIVE"
+"14","Aripiprazole 
+Lauroxil","5-HT2A","Psychiatry/Schizophrenia and bipolar disorder,Major depression,Tourette's disease or autism","CYP2D6",NA,NA,NA,"polymorphism",NA,"NA","49831411","ENSG00000100197","EFO_0000289","CYP2D6 POLYMORPHISM NA"
+"15","Arsenic Trioxide","HK2(Hexokinase 2)","Oncology/blood and bone marrow cancers","PML-RARA",NA,NA,NA,"translocation",NA,"DB01169","NA","ENSG00000133246","MONDO_0021138","PML-RARA TRANSLOCATION NA"
+"16","Articaine and 
+Epinephrine",NA,"Anesthesiology,before dental care to numb the area","G6PD",NA,NA,NA,"protein expression",NA,"NA","NA","ENSG00000160211","OTAR_0000018","G6PD PROTEIN EXPRESSION NA"
+"17","Atezolizumab (1)","hPD-L1","Oncology/Breast bladder and urinary tract cancers, non-small cell lung cancer.","CD274",NA,NA,NA,"protein expression",NA,"NA","NA","ENSG00000120217","MONDO_0007254","CD274 PROTEIN EXPRESSION NA"
+"18","Atezolizumab (2)","hPD-L1","Oncology/Metastatic Chemotherapy-Naive Non-Squamous NSCLC","CD274，Gene Signature
+(T-effector)",NA,"positive, positive","AND","protein expression,",NA,"NA","NA","ENSG00000120217, NA","EFO_0006859","failed"
+"19","Atezolizumab (3)",NA,"Oncology/ non-small cell lung cancer.","CD274，EGFR，ALK",NA,"positive, negative, negative","AND, AND","protein expression, mutation, mutation",NA,"NA","NA","ENSG00000120217, ENSG00000146648, ENSG00000171094","EFO_0003060","CD274 PROTEIN EXPRESSION POSITIVE AND EGFR MUTATION NEGATIVE AND ALK MUTATION NEGATIVE"
+"20","Atomoxetine","5-HT; DA transporter; Norepinephrine (NE) transporter","Psychiatry/Hyperactive attention deficit","CYP2D6",NA,NA,NA,"polymorphism",NA,"DB00289","54841","ENSG00000100197","EFO_0003888","CYP2D6 POLYMORPHISM NA"
+"21","Ascorbic Acid, 
+PEG-3350, 
+Potassium 
+Chloride, Sodium 
+Ascorbate, 
+Sodium Chloride, 
+and Sodium 
+Sulfate",NA,"gastrointestinal","G6PD",NA,NA,NA,"polymorphism",NA,"DB00126,NA,NA,NA,DB09153,NA","54670067, 174, 4873, 23667548, 5234, NA","ENSG00000160211","EFO_0010282","G6PD POLYMORPHISM NA"
+"22","Avatrombopag","TPOreceptor","Hematology/Thrombotic/Thromboembolic Complications","F2, F5, PROC, PROS1, SERPINC1, CYP2C9",NA,"negative,negative,negative, negative,negative,negative",NA,"polymorphism, polymorphism, polymorphism, polymorphism, polymorphism, polymorphism",NA,"DB11995","9852519","ENSG00000180210, ENSG00000198734, ENSG00000115718, ENSG00000184500, ENSG00000117601, ENSG00000138109","Orphanet_183589","failed"
+"23","Avelumab","PD-L1","Oncology/Merckle cell carcinoma","CD274 
+(PD-L1)",NA,NA,NA,"protein expression",NA,"DB11945","NA","NA","EFO_0000681","CD274 
+(PD-L1) PROTEIN EXPRESSION NA"
+"24","Azathioprine (1)","HGPRT; Rac1;","Azathioprine/Autoimmune diseases","TPMT, NUDT15",NA,"negative, negative","AND/OR","polymorphism, polymorphism",NA,"NA","NA","ENSG00000137364, ENSG00000136159","EFO_0005140","TPMT POLYMORPHISM NEGATIVE AND/OR NUDT15 POLYMORPHISM NEGATIVE"
+"25","Belinostat","HDAC","Oncology/T cell lymphoma","UGT1A1",NA,NA,NA,"polymorphism",NA,"DB05015","6918638","ENSG00000241635","EFO_0000574","UGT1A1 POLYMORPHISM NA"
+"26","Binimetinib (1)","MEK1&2","Oncology/melanoma","BRAF",NA,NA,NA,"mutation",NA,"NA","NA","ENSG00000157764","EFO_0000756","BRAF MUTATION NA"
+"27","Blinatumomab","CD19 / CD3","Oncology/Philadelphia Chromosome-negative Relapsed or Refractory B-cell Precursor ALL; MRD-positive B-cell Precursor ALL,leukemia","BCR-ABL1
+(Philadelphia 
+chromosome)",NA,NA,NA,"translocation",NA,"DB09052","NA","NA","EFO_0000565","BCR-ABL1
+(PHILADELPHIA 
+CHROMOSOME) TRANSLOCATION NA"
+"28","Boceprevir","HCV NS3 protease","Hepatitis c infection","IFNL3
+",NA,NA,NA,"protein expression",NA,"DB08873","10324367","ENSG00000197110","EFO_0004220","IFNL3 PROTEIN EXPRESSION NA"
+"29","Bosutinib","Abl; c-Src; MAPK;","Oncology/Chronic myelogenous leukemia","BCR-ABL1
+(Philadelphia 
+chromosome)",NA,NA,NA,"translocation",NA,"DB06616","5328940","NA","MONDO_0001014","BCR-ABL1
+(PHILADELPHIA 
+CHROMOSOME) TRANSLOCATION NA"
+"30","Brentuximab 
+Vedotin (1)","ADCs Linker","Oncology/classical Hodgkin lymphoma,Anaplastic large cell lymphoma","ALK",NA,NA,NA,"mutation",NA,"NA","NA","ENSG00000171094","EFO_0000574","ALK MUTATION NA"
+"31","Brentuximab 
+Vedotin (2)","ADCs Linker","Oncology/classical Hodgkin lymphoma,Anaplastic large cell lymphoma","TNFRSF8
+(CD30)",NA,NA,NA,"protein expression",NA,"NA","NA","NA","EFO_0000574","TNFRSF8
+(CD30) PROTEIN EXPRESSION NA"
+"32","Brexpiprazole",NA,"Psychiatry/schizophrenia,Severe depression,Alzheimer's disease","CYP2D6",NA,NA,NA,"polymorphism",NA,"DB09128","11978813","ENSG00000100197","EFO_0000249","CYP2D6 POLYMORPHISM NA"
+"33","Brigatinib",NA,"Oncology/Non-small cell lung cancer that has spread to other parts of the body","ALK",NA,NA,NA,"mutation",NA,"DB12267","68165256","ENSG00000171094","EFO_0003060","ALK MUTATION NA"
+"34","Brivaracetam",NA,"Neurology/epilepsy","CYP2C19",NA,NA,NA,"polymorphism",NA,"DB05541","9837243","ENSG00000165841","EFO_0000474","CYP2C19 POLYMORPHISM NA"
+"35","Cabozantinib",NA,"Oncology/non-small-cell lung cancer","RET",NA,NA,NA,"genetic others",NA,"DB08875","25102846","ENSG00000165731","EFO_0003060","RET GENETIC OTHERS NA"
+"36","Capecitabine",NA,"Colorectal cancer,reast cancer","DPYD",NA,NA,NA,"mutation",NA,"DB01101","60953","ENSG00000188641","EFO_0005842","DPYD MUTATION NA"
+"37","Carbamazepine 
+(1)",NA,"Neurology/Brivaracetam,epilepsy,anticonvulsants","HLA-B, HLA-A",NA,"negative, negative","AND/OR","polymorphism, polymorphism",NA,"NA","NA","ENSG00000234745, ENSG00000206503","EFO_0000474","HLA-B POLYMORPHISM NEGATIVE AND/OR HLA-A POLYMORPHISM NEGATIVE"
+"38","Carglumic Acid",NA,"Inborn Errors of Metabolism,high ammonia levels","NAGS",NA,NA,NA,"protein expression",NA,"DB06775","121396","ENSG00000161653","Orphanet_68367","NAGS PROTEIN EXPRESSION NA"
+"39","Cariprazine",NA,"Psychiatry/schizophrenia,Bipolar I disorder","CYP2D6",NA,NA,NA,"polymorphism",NA,"DB06016","25096873","ENSG00000100197","EFO_0000289","CYP2D6 POLYMORPHISM NA"
+"40","Carisoprodol",NA,"Rheumatology/Skeletal muscle diseas","CYP2C19",NA,NA,NA,"polymorphism",NA,"DB00395","2576","ENSG00000165841","EFO_0002461","CYP2C19 POLYMORPHISM NA"
+"41","Carvedilol",NA,"Cardiology/Heart failure,high blood pressure,Heart disease","CYP2D6",NA,NA,NA,"polymorphism",NA,"DB01136","185395","ENSG00000100197","EFO_0003777","CYP2D6 POLYMORPHISM NA"
+"42","Celecoxib",NA,"Rheumatology/Arthritis, ankylosis and menstrual pain,Rheumatoid arthritis","CYP2C9",NA,NA,NA,"polymorphism",NA,"DB00482","2662","ENSG00000138109","EFO_0000685","CYP2C9 POLYMORPHISM NA"
+"43","Ceftriaxone",NA,"Infectious Diseases/Treat or prevent bacterial infections","G6PD",NA,NA,NA,"polymorphism",NA,"DB01212","5479530","ENSG00000160211","EFO_0005741","G6PD POLYMORPHISM NA"
+"44","Ceritinib",NA,"Oncology/Lung cancer","ALK",NA,NA,NA,"mutation",NA,"DB09063","57379345","ENSG00000171094","MONDO_0008903","ALK MUTATION NA"
+"45","Cerliponase Alfa",NA,"Inborn Errors of 
+Metabolism/Type 2 disease of ceroid lipofuscinosis (CLN2)","TPP1",NA,NA,NA,"mutation",NA,"DB13173","NA","ENSG00000166340","Orphanet_68367","TPP1 MUTATION NA"
+"46","Cetuximab (2)",NA,"Oncology/cancer of the head and neck/colorectal cancer","RAS",NA,NA,NA,"mutation",NA,"NA","NA","ENSG00000133703","EFO_0005842","RAS MUTATION NA"
+"47","Crizanlizumab",NA,"Hematology/people with sickle cell disease","HBB",NA,NA,NA,"mutation",NA,"DB15271","NA","ENSG00000244734","EFO_1000636","HBB MUTATION NA"
+"48","Crizotinib (2)",NA,"Oncology/ lung cancer","ROS1",NA,NA,NA,"gene fusion",NA,"NA","NA","ENSG00000047936","MONDO_0008903","ROS1 GENE FUSION NA"
+"49","Dabrafenib (3)",NA,"Oncology/skin cancer (melanoma)/ lung cancer","RAS",NA,NA,NA,"mutation",NA,"NA","NA","ENSG00000133703","MONDO_0002898","RAS MUTATION NA"
+"50","Denileukin Diftitox",NA,"Oncology/leukemia/lymphomas/T-cell lymphoma","IL2RA
+",NA,NA,NA,"protein expression",NA,"DB00004","NA","ENSG00000134460","EFO_0000574","IL2RA PROTEIN EXPRESSION NA"
+"51","Duvelisib",NA,"Oncology/ leukemia ，lymphoma","Chromosome 17p",NA,NA,NA,"deletion",NA,"DB11952","50905713","NA","EFO_0009119","CHROMOSOME 17P DELETION NA"
+"52","Efavirenz",NA,"Infectious 
+Diseases/ HIV infection","CYP2B6",NA,NA,NA,"polymorphism",NA,"DB00625","64139","ENSG00000197408","EFO_0005741","CYP2B6 POLYMORPHISM NA"
+"53","Elagolix",NA,"Gynecology/moderate to severe pain caused by endometriosis.","SLCO1B1",NA,NA,NA,"protein expression",NA,"DB11979","11250647","ENSG00000134538","EFO_0005115","SLCO1B1 PROTEIN EXPRESSION NA"
+"54","Elexacaftor, 
+Ivacaftor, and 
+Tezacaftor",NA,"Pulmonary/Repair the defective CFTR protein","CFTR",NA,NA,NA,"mutation",NA,"DB15444,DB08820,NA","134587348, 16220172, NA","ENSG00000001626","EFO_0008499","CFTR MUTATION NA"
+"55","Elosulfase",NA,"Inborn Errors of 
+Metabolism/mucopolysaccharidosis type IVA","GALNS",NA,NA,NA,"mutation",NA,"NA","NA","ENSG00000141012","Orphanet_68367","GALNS MUTATION NA"
+"56","Eltrombopag (3)",NA,"Hematology/increase the number of platelets","Chromosome 7del",NA,NA,NA,"deletion",NA,"NA","NA","NA","EFO_0004309","CHROMOSOME 7DEL DELETION NA"
+"57","Eltrombopag (4)",NA,"Hematology/increase the number of platelets","Chromosome 13del",NA,NA,NA,"deletion",NA,"NA","NA","NA","EFO_0004309","CHROMOSOME 13DEL DELETION NA"
+"58","Emapalumab-lzsg",NA,"Hematology/ primary hemophagocytic lymphohistiocytosis (HLH)","PRF1, RAB27A, 
+SH2D1A, STXBP2, 
+STX11, UNC13D, 
+XIAP 
+(Hemophagocytic 
+Lymphohistiocytosis)",NA,NA,NA,"mutation",NA,"DB14724","NA","ENSG00000180644, ENSG00000069974, ENSG00000183918, ENSG00000076944, ENSG00000135604, ENSG00000092929, NA","MONDO_0001082","failed"
+"59","Enasidenib",NA,"Oncology/acute myeloid leukemia (AML) in adults with an IDH2 mutation.","IDH2",NA,NA,NA,"mutation",NA,"DB13874","89683805","ENSG00000182054","EFO_0000222","IDH2 MUTATION NA"
+"60","Enfortumab 
+Vedotin-ejfv",NA,"Oncology/advanced urothelial carcinoma， bladder cancer","NECTIN4",NA,NA,NA,"protein expression",NA,"NA","NA","ENSG00000143217","EFO_0009260","NECTIN4 PROTEIN EXPRESSION NA"
+"61","Entrectinib (2)",NA,"Oncology/Solid tumor","NTRK",NA,NA,NA,"gene fusion",NA,"NA","NA","ENSG00000165300","MONDO_0037255","NTRK GENE FUSION NA"
+"62","Erdafitinib (1)",NA,"Oncology/Urothelial carcinoma","FGFR",NA,NA,NA,"mutation, gene fusion",NA,"NA","NA","ENSG00000068078","EFO_0008528","failed"
+"63","Escitalopram (2)",NA,"Psychiatry/Depression","CYP2C19",NA,NA,NA,"polymorphism",NA,"NA","NA","ENSG00000165841","EFO_0003761","CYP2C19 POLYMORPHISM NA"
+"64","Estradiol and 
+Progesterone (3)",NA,"Gynecology/Vasomotor disease","SERPINC1
+(Antithrombin III)",NA,NA,NA,"protein overexpression",NA,"NA","NA","NA","EFO_0003782","SERPINC1
+(ANTITHROMBIN III) PROTEIN OVEREXPRESSION NA"
+"65","Eteplirsen",NA,"Neurology/Duchenne muscular dystrophy","DMD",NA,NA,NA,"mutation",NA,"DB06014","NA","ENSG00000198947","Orphanet_98896","DMD MUTATION NA"
+"66","Fluorouracil (1)",NA,"Dermatology/skin cancer","DPYD",NA,NA,NA,"mutation",NA,"NA","NA","ENSG00000188641","MONDO_0002898","DPYD MUTATION NA"
+"67","Gilteritinib",NA,"Oncology/myelomatosis","FLT3",NA,NA,NA,"mutation",NA,"DB12141","49803313","ENSG00000122025","EFO_0001378","FLT3 MUTATION NA"
+"68","Givosiran",NA,"Gastroenterology/Acute liver porphyria","CPOX, HMBS, PPOX
+",NA,NA,NA,"protein expression","not sure","DB15066","119058042","ENSG00000080819, ENSG00000256269, ENSG00000143224","Orphanet_95157","failed"
+"69","Ibrutinib (2)",NA,"Oncology/Chronic Lymphocytic Leukemia / Small Lymphocytic Lymphoma","Chromosome 11q",NA,NA,NA,"deletion",NA,"NA","NA","NA","EFO_0000095","CHROMOSOME 11Q DELETION NA"
+"70","Imatinib (1)",NA,"Oncology/Aggressive Systemic Mastocytosis","KIT，FIP1L1-PDGFRA",NA,"negative, positive","AND","mutation, gene fusion",NA,"NA","NA","ENSG00000157404, ENSG00000282278","MONDO_0017595","KIT MUTATION NEGATIVE AND FIP1L1-PDGFRA GENE FUSION POSITIVE"
+"71","Imatinib (2)",NA,"Oncology/Myeloid leukemia","BCR-ABL1
+(Philadelphia 
+chromosome)",NA,NA,NA,"translocation",NA,"NA","NA","NA","MONDO_0004643","BCR-ABL1
+(PHILADELPHIA 
+CHROMOSOME) TRANSLOCATION NA"
+"72","Imatinib (3)",NA,"Oncology/Myelodysplastic/Myeloproliferative Diseases (MDS/MPD)","PDGFRB",NA,NA,NA,"translocation",NA,"NA","NA","ENSG00000113721","EFO_0000616","PDGFRB TRANSLOCATION NA"
+"73","Imatinib (4)",NA,"Oncology/Hypereosinophilic Syndrome (HES) and/or Chronic Eosinophilic Leukemia (CEL)","FIP1L1-PDGFRA",NA,NA,NA,"gene fusion",NA,"NA","NA","ENSG00000282278","EFO_0004842","FIP1L1-PDGFRA GENE FUSION NA"
+"74","Indacaterol",NA,"Pulmonary/asthma","UGT1A1",NA,NA,NA,"polymorphism",NA,"DB05039","6918554","ENSG00000241635","EFO_0000270","UGT1A1 POLYMORPHISM NA"
+"75","Inotersen",NA,"Neurology/FAP(Familial amyloid polyneuropathy)","TTR",NA,NA,NA,"protein expression",NA,"DB14713","121493436","ENSG00000118271","EFO_0002945","TTR PROTEIN EXPRESSION NA"
+"76","Ipilimumab (1)",NA,"Oncology/Melanoma","HLA-A",NA,NA,NA,"polymorphism",NA,"NA","NA","ENSG00000206503","EFO_0000756","HLA-A POLYMORPHISM NA"
+"77","Isosorbide Dinitrate",NA,"Cardiology/angina","CYB5R",NA,NA,NA,"protein expression",NA,"DB00883","6883","ENSG00000100243","EFO_0003913","CYB5R PROTEIN EXPRESSION NA"
