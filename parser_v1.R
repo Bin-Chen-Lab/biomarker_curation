@@ -1,5 +1,6 @@
+#parse excels from curators
+
 setwd("~/Documents/stanford/grant/2019/ot2/work/")
-#parse excel and map to 
 library("readxl")
 library("stringr")
 library("rpubchem")
