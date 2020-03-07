@@ -1,0 +1,20 @@
+-code
+----worker.R: main work flow
+----parser.R: parse curation data, map to external ids
+----merger.R: merge all parsed data into one single file. perform quality control
+----converter_json.R: convert all records into json 
+----converter_db.R: convert all records into DB
+
+----collector_breast_cancer.R: collect breast cancer features
+----mapper_patient2biomarker.R: match patients to biomarkers (only for breast cancer TCGA data)
+
+-data
+----curation: raw tables from curators
+----parsed: parsed tables
+----merged: merged table
+----released: released data (db or json)
+----support: supporting data
+
+-doc
+----supporting documents
+
