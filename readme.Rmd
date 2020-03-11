@@ -18,3 +18,105 @@
 -doc
 ----supporting documents
 
+#################
+#Curation table
+Key elements: 
+Drug, Disease, Enrichment biomarker, Biomarker relationship,	Biomarker logical conditions,	Marker type
+
+#################
+#Merged Table
+#drug: drug name directly taken from the raw text
+#drug_drugbank_standard: drug drugbank ID; NA: means unmapped; The drug that has not been approved may not have drugbank id.
+#drug_pubchem: drug PubChem Compound ID; if the drug is a biological entity, it may have not PubChem Compound ID
+#biomarker: biomarker names taken from the raw text; mostly are related to gene, occationally related to protein target (antibody name), metabolite or other entities
+#biomarker_ensembl_standard: biomarker ensembl id (mapped through open target APIs), some mappings might not be accurate as opentarget using a similarity matching; non-gene-biomarkers may not have ensembl id
+#biomarker_type: ~16 biomarker types were summarized such as gene expression, protein expression, mutation.
+#biomarker_direction: postive or negative. For mutation, positive means the patient should harbor this mutation; for protein expression, positive means the patient should have highly expressed protein.
+#biomarker_relations: The relation between multiple biomarkers. AND: patients should present both biomarkers; OR: patients present either of the biomarkers
+#biomarker_description: a summary of the biomarker description ( a combination of biomarker name, type, direction, and relations). It should be more understandable.
+#disease: disease taken from the raw text
+#diseases_id_standard: disease ID mapped to EFO/MONDO(Monarch Disease) via opentarget API. Similarity matching was performed, only the top disease was selected; many of the mappings are problematic so should be used in caution.
+#drug_targets: drug targets taken from the raw text. We only add the targets mentioned in the text.
+#curator
+#raw_table: raw_table provided by the curator
+#source: FDA, clinicaltrials.gov or PubMed
+#source ID: FDA source IDs are the same as taken from the same website. clinicaltrials.gov: clinical trial ID, PubMed: PubMed ID
+
+#################
+#DB tables:
+#biomarker_record (record_id,	drug,	biomarker,	biomarker_relations,	biomarker_description,	disease,	curator,	source,	source_id)
+#drug (record_id, name, drugbank_id, pubchem_id)
+#biomarker (record_id, name, ensembl, biomarker_type, biomarker_direction)
+#disease (record_id, name, id)
+#patient (record_id, patient_id)
+
+#################
+#JSON format
+{
+  "biolink:id": "FDA0001",
+  "biolink:name": "FDAbiomarker1",
+  "biolink:type": "biomarker",
+  "curator": [
+    {
+      "biolink:name": "Ben Feng",
+      "biolink:update_date": "2020-02-22T19:41:44.731Z",
+      "biolink:comment": "" 
+    }
+  ],
+  "biolink:has_drug": [
+    {
+      "biolink:id": [
+        {
+          "biolink:source_data_file": "Drugbank",
+          "code": "DB01048",
+          "biolink:versionOf": ""
+        }
+       "biolink:id": [
+        {
+          "biolink:source_data_file": "PubChem",
+          "code": "29969962",
+          "biolink:versionOf": ""
+        }
+      ],
+      "biolink:name": "Abacavir",
+      "biolink:type": "biolink:drug"
+    },
+  ],
+    
+  "has_disease": [
+    {
+      "biolink:id": [
+        {
+          "biolink:source_data_file": "EFO",
+          "code": "EFO_0005741",
+          "biolink:source_version": ""
+        }
+      ],
+      "biolink:name": "Infectious disease/ADIS",
+      "biolink:type": "biolink:disease",
+      "biolink:comment": ""
+    }
+  ],
+  "has_molecular_entity": [
+    {
+      "biolink:id": [
+      {
+         "biolink:source_data_file": "NCBI Entrez",
+         "code": "ENSG00000234745"
+       },
+      "biolink:name": "HLA-B",
+      "biolink:type": "polymorphism",
+      "biolink:relation": "NA"
+    }
+    ],
+
+  "biolink:has_evidence": [
+    {
+      "biolink:id": "",
+      "biolink:EvidenceType": "FDA",
+      "biolink:comment": ""
+    }
+  ]
+}
+
+################
