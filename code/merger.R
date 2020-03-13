@@ -13,51 +13,61 @@ data_v1 = data_v0[, c("Drug", "drug_drugbank_standard", "drug_pubchem", "Enrichm
                   "Marker.type", "Biomarker.relationship", "Biomarker.logical.conditions", "biomarker_term",
                   "Disease",  "diseases_EFO_MONDO_standard","Targets", "QC" )  ]
 data_v1$curator = "Ben"
-data_v1$raw_table = "FDA-drug&biomarkers-v8.xlsx"
+data_v1$raw_table = "FDA-drug_biomarkers-v8_BC_cleaned.xlsx"
 data_v1$source = "FDA"
-data_v1$source_id = "NA"
+data_v1$source_id = "https://www.fda.gov/media/124784/download"
 data_all = rbind(data_all, data_v1)
 
-data_v0 = read.csv("data/parsed/Ben_Breast_cancer_CLINICALTRIAL_v7.csv")
-data_v1 = data_v0[, c("Drug", "drug_drugbank_standard", "drug_pubchem", "Enrichment.biomarker", "biomarker_ensembl_standard",
-                  "Marker.type", "Biomarker.relationship", "Biomarker.logical.conditions", "biomarker_term",
-                  "Disease",  "diseases_EFO_MONDO_standard","Targets", "QC" )  ]
-data_v1$curator = "Ben"
-data_v1$raw_table = "Breast_cancer_CLINICALTRIAL_v7.xlsx"
-data_v1$source = "clinicaltrials.gov"
-data_v1$source_id = data_v0$ClinicalTrials.gov.reference
-data_all = rbind(data_all, data_v1)
-
-data_v0 = read.csv("data/parsed/Tyler_Breast_Cancer.csv")
-data_v1 = data_v0[, c("Drug", "drug_drugbank_standard", "drug_pubchem", "Enrichment.biomarker", "biomarker_ensembl_standard",
-                      "Marker.type", "Biomarker.relationship", "Biomarker.logical.conditions", "biomarker_term",
-                      "Disease",  "diseases_EFO_MONDO_standard","Targets" , "QC")  ]
-data_v1$curator = "Tyler"
-data_v1$raw_table = "Breast Cancer (LT NCT04194684, 1-50)_tyler.xlsx"
-data_v1$source = "clinicaltrials.gov"
-data_v1$source_id = data_v0$clinicaltrials.gov.reference
-data_all = rbind(data_all, data_v1)
-
-
-data_v0 = read.csv("data/parsed/Austin_Breast_Cancer.csv")
-data_v1 = data_v0[, c("Drug", "drug_drugbank_standard", "drug_pubchem", "Enrichment.biomarker", "biomarker_ensembl_standard",
-                      "Marker.type", "Biomarker.relationship", "Biomarker.logical.conditions", "biomarker_term",
-                      "Disease",  "diseases_EFO_MONDO_standard","Targets" , "QC")  ]
-data_v1$curator = "Austin"
-data_v1$raw_table = "Breast Cancer (LT NCT04001621, 1-50)_austin.xlsx"
-data_v1$source = "clinicaltrials.gov"
-data_v1$source_id = data_v0$clinicaltrials.gov.reference
-data_all = rbind(data_all, data_v1)
-
-
-data_v0 = read.csv("data/parsed/AustinTyler_Livercancer.csv")
+data_v0 = read.csv("data/parsed/Ben_FDA-drug_biomarkers-35-v2.csv")
 data_v1 = data_v0[, c("Drug", "drug_drugbank_standard", "drug_pubchem", "Enrichment.biomarker", "biomarker_ensembl_standard",
                       "Marker.type", "Biomarker.relationship", "Biomarker.logical.conditions", "biomarker_term",
                       "Disease",  "diseases_EFO_MONDO_standard","Targets", "QC" )  ]
-data_v1$curator = "Austin"
-data_v1$raw_table = "Livercancer2010_2011.xlsx"
+data_v1$curator = "Ben"
+data_v1$raw_table = "FDA-drug_biomarkers-35-v2_BC_cleaned.xlsx"
+data_v1$source = "FDA"
+data_v1$source_id = "https://www.fda.gov/media/124784/download"
+data_all = rbind(data_all, data_v1)
+
+data_v0 = read.csv("data/parsed/Breast_Cancer_Clinical_Trials_Annotated.csv")
+data_v1 = data_v0[, c("Drug", "drug_drugbank_standard", "drug_pubchem", "Enrichment.biomarker", "biomarker_ensembl_standard",
+                  "Marker.type", "Biomarker.relationship", "Biomarker.logical.conditions", "biomarker_term",
+                  "Disease",  "diseases_EFO_MONDO_standard","Targets", "QC" )  ]
+data_v1$curator = data_v0$annotator
+data_v1$raw_table = "Breast_Cancer_Clinical_Trials_Annotated.xlsx"
 data_v1$source = "clinicaltrials.gov"
 data_v1$source_id = data_v0$clinicaltrials.gov.reference
+data_all = rbind(data_all, data_v1)
+
+
+data_v0 = read.csv("data/parsed/Liver_Clinical_Trials.csv")
+data_v1 = data_v0[, c("Drug", "drug_drugbank_standard", "drug_pubchem", "Enrichment.biomarker", "biomarker_ensembl_standard",
+                      "Marker.type", "Biomarker.relationship", "Biomarker.logical.conditions", "biomarker_term",
+                      "Disease",  "diseases_EFO_MONDO_standard","Targets", "QC" )  ]
+data_v1$curator = data_v0$annotator
+data_v1$raw_table = "Liver_Clinical_Trials.xlsx"
+data_v1$source = "clinicaltrials.gov"
+data_v1$source_id = data_v0$clinicaltrials.gov.reference
+data_all = rbind(data_all, data_v1)
+
+data_v0 = read.csv("data/parsed/Ben_Breast_Cancer_pubmed.csv")
+data_v1 = data_v0[, c("Drug", "drug_drugbank_standard", "drug_pubchem", "Enrichment.biomarker", "biomarker_ensembl_standard",
+                      "Marker.type", "Biomarker.relationship", "Biomarker.logical.conditions", "biomarker_term",
+                      "Disease",  "diseases_EFO_MONDO_standard","Targets", "QC" )  ]
+data_v1$curator = "Ben"
+data_v1$raw_table = "Breast-Cancer-Drug_biomarkers-pubmed-v4-030920-30-revised-2.xlsx"
+data_v1$source = "PubMed"
+data_v1$source_id = data_v0$PMID
+data_all = rbind(data_all, data_v1)
+
+
+data_v0 = read.csv("data/parsed/Breast-Cancer-Drug_biomarkers-pubmed-v4-031120-40-v2.csv")
+data_v1 = data_v0[, c("Drug", "drug_drugbank_standard", "drug_pubchem", "Enrichment.biomarker", "biomarker_ensembl_standard",
+                      "Marker.type", "Biomarker.relationship", "Biomarker.logical.conditions", "biomarker_term",
+                      "Disease",  "diseases_EFO_MONDO_standard","Targets", "QC" )  ]
+data_v1$curator = "Ben"
+data_v1$raw_table = "Breast-Cancer-Drug_biomarkers-pubmed-v4-031120-40-v2.xlsx"
+data_v1$source = "PubMed"
+data_v1$source_id = data_v0$PMID
 data_all = rbind(data_all, data_v1)
 
 data_all = subset(data_all, QC %in% c("pass"))
@@ -70,7 +80,9 @@ colnames(data_all) = c("drug", "drug_drugbank_standard", "drug_pubchem", "biomar
                        "biomarker_type", "biomarker_direction", "biomarker_relations", "biomarker_description",
                        "disease",  "diseases_id_standard","drug_targets", "QC", "curator", "raw_table", "source", "source_id", "record_id" ) 
 
+print(sum(duplicated(data_all$record_id )))
 
+data_all = data_all[!duplicated(data_all$record_id), ] #need to fixed this
 write.csv(data_all, "data/merged/biomarker_all.csv")
 
 #

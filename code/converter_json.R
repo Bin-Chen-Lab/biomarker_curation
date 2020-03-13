@@ -140,8 +140,8 @@ for (i in 1:nrow(biomarker_all)){
   
   
   
-  biomarker_lists[[i]] = list(biolink__id = biomarker_all$ID[i], biolink__name = paste0(biomarker_all$drug[i], " treat ", biomarker_all$disease[i], " with ", biomarker_all$biomarker_term[i]),
-           biolink__type = "biomarker", biomarker_term = biomarker_all$biomarker_term[i],
+  biomarker_lists[[i]] = list(biolink__id = biomarker_all$record_id[i], biolink__name = paste0(biomarker_all$drug[i], " treat ", biomarker_all$disease[i], " with ", biomarker_all$biomarker_description[i]),
+           biolink__type = "biomarker", biomarker_term = biomarker_all$biomarker_description[i],
            curator = list(biolink__name = biomarker_all$curator[i], biolink__update_date = date(), biolink__comment = ""),
            biolink__has_drug = drug_lists, biolink__has_disease = disease_lists, biolink__has_molecular_entity = ME_lists, 
            biolink__has_evidence = list(biolink__id = biomarker_all$source_id[i], EvidenceType = biomarker_all$source[i], biolink__comment = ""))

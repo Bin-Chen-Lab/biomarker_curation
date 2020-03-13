@@ -18,7 +18,7 @@ library("httr")
 require("jsonlite")
 
 get_drugbank_id <- function(drug, drugbank_dic){
-  return(drugbank_dic$id[drugbank_dic$name == drug][1])
+  return(drugbank_dic$id[toupper(drugbank_dic$name) == drug][1])
 }
 
 get_pubchem_cid <- function(drug){
@@ -102,7 +102,7 @@ for (i in 1:nrow(annotation)){
   drug_curation = annotation$Drug[i]
   #replace new line
   drug_curation = str_replace_all(drug_curation, "\n|\r", " ")
-  drugs = toupper(unique(str_trim(unlist(strsplit(paste(as.character(drug_curation), collapse = ","), " AND | ,|，| and ")), side = "both")))
+  drugs = toupper(unique(str_trim(unlist(strsplit(paste(as.character(drug_curation), collapse = ","), " AND | ,|，| and |,")), side = "both")))
   
   #remove drug "()"
   drugs = sapply(drugs, function(drug) str_trim(unlist(strsplit(drug, "\\("))[1]))
@@ -123,7 +123,7 @@ for (i in 1:nrow(annotation)){
       disease
     }
   })
-  annotation$Disease[i] = paste(diseases, collapse = ", ")
+  annotation$Disease[i] = str_trim(toupper(paste(diseases, collapse = ", ")))
   diseases_EFO_MONDO = paste(sapply(diseases, function(x) get_disease_id(x)[1]), collapse = ", ")
   
   annotation$drug_drugbank_standard[i] = drugs_drugbank

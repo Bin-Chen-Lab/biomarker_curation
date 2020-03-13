@@ -1,4 +1,6 @@
 #mapper patient 2 biomarker records
+library(stringr)
+
 biomarker_records = read.csv("data/merged/biomarker_all.csv", stringsAsFactors = F)
 
 patient_features = read.csv("data/support/patient_brca_tcga.csv", stringsAsFactors = F)
@@ -16,7 +18,7 @@ for (i in 1:nrow(biomarker_records)){
   
   candidates = NULL
   for (j in 1:length(biomarkers)){
-    if (str_trim(biomarkers[j] ) == "ESR1"){
+    if (str_trim(biomarkers[j] ) %in% c("ESR1", "ESR")){
         candidatesX = patient_features$patient_id[patient_features$ESR1 ==  biomarker_directions[j]]
     }
     if (str_trim(biomarkers[j]) %in% c("HER2", "ERBB2")) {
