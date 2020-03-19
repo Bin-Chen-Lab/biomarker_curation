@@ -8,12 +8,12 @@ library("digest")
 data_all = NULL
 
 
-data_v0 = read.csv("data/parsed/Ben_FDA-drug_biomarkers-v8.csv")
+data_v0 = read.csv("data/parsed/Ben_FDA-drug_biomarkers-v9.csv")
 data_v1 = data_v0[, c("Drug", "drug_drugbank_standard", "drug_pubchem", "Enrichment.biomarker", "biomarker_ensembl_standard",
                   "Marker.type", "Biomarker.relationship", "Biomarker.logical.conditions", "biomarker_term",
                   "Disease",  "diseases_EFO_MONDO_standard","Targets", "QC" )  ]
 data_v1$curator = "Ben"
-data_v1$raw_table = "FDA-drug_biomarkers-v8_BC_cleaned.xlsx"
+data_v1$raw_table = "FDA-drug_biomarkers-v9_BC_cleaned.xlsx"
 data_v1$source = "FDA"
 data_v1$source_id = "https://www.fda.gov/media/124784/download"
 data_all = rbind(data_all, data_v1)
@@ -49,26 +49,27 @@ data_v1$source = "clinicaltrials.gov"
 data_v1$source_id = data_v0$clinicaltrials.gov.reference
 data_all = rbind(data_all, data_v1)
 
-data_v0 = read.csv("data/parsed/Ben_Breast_Cancer_pubmed.csv")
+data_v0 = read.csv("data/parsed/Breast-Cancer-Drug_biomarkers-pubmed-031420-v5.csv")
 data_v1 = data_v0[, c("Drug", "drug_drugbank_standard", "drug_pubchem", "Enrichment.biomarker", "biomarker_ensembl_standard",
                       "Marker.type", "Biomarker.relationship", "Biomarker.logical.conditions", "biomarker_term",
                       "Disease",  "diseases_EFO_MONDO_standard","Targets", "QC" )  ]
 data_v1$curator = "Ben"
-data_v1$raw_table = "Breast-Cancer-Drug_biomarkers-pubmed-v4-030920-30-revised-2.xlsx"
+data_v1$raw_table = "Breast-Cancer-Drug_biomarkers-pubmed-031420-v5.xlsx"
 data_v1$source = "PubMed"
 data_v1$source_id = data_v0$PMID
 data_all = rbind(data_all, data_v1)
 
-
-data_v0 = read.csv("data/parsed/Breast-Cancer-Drug_biomarkers-pubmed-v4-031120-40-v2.csv")
+data_v0 = read.csv("data/parsed/Liver_PUBMED_200.csv")
 data_v1 = data_v0[, c("Drug", "drug_drugbank_standard", "drug_pubchem", "Enrichment.biomarker", "biomarker_ensembl_standard",
                       "Marker.type", "Biomarker.relationship", "Biomarker.logical.conditions", "biomarker_term",
                       "Disease",  "diseases_EFO_MONDO_standard","Targets", "QC" )  ]
-data_v1$curator = "Ben"
-data_v1$raw_table = "Breast-Cancer-Drug_biomarkers-pubmed-v4-031120-40-v2.xlsx"
+data_v1$curator = "Shreya"
+data_v1$raw_table = "Liver_PUBMED_200.xlsx"
 data_v1$source = "PubMed"
 data_v1$source_id = data_v0$PMID
 data_all = rbind(data_all, data_v1)
+
+data_all_raw = data_all
 
 data_all = subset(data_all, QC %in% c("pass"))
 
@@ -84,6 +85,14 @@ print(sum(duplicated(data_all$record_id )))
 
 data_all = data_all[!duplicated(data_all$record_id), ] #need to fixed this
 write.csv(data_all, "data/merged/biomarker_all.csv")
+
+print(paste("total records", nrow(data_all_raw)))
+print(paste("passed records", nrow(data_all)))
+print(table(data_all_raw$QC))
+
+print(table(data_all_raw$source))
+print(table(data_all$source))
+
 
 #
 #drug: drug name directly taken from the raw text

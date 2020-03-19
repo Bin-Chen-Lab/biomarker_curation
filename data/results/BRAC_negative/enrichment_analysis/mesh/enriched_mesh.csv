@@ -1,0 +1,227 @@
+"target","score","p","padj"
+"14-alpha Demethylase Inhibitors",963.214898127953,0,0
+"Alkylating Agents",395.906742456311,0,0
+"Anthelmintics",16.9239010599143,0,0
+"Anti-Infective Agents, Local",1821.64114923935,0,0
+"Antibiotics, Antineoplastic",1184.57758416916,0,0
+"Anticestodal Agents",977.200985164493,0,0
+"Anticoagulants",123.068266318114,0,0
+"Antifungal Agents",913.682501207933,0,0
+"Antimetabolites, Antineoplastic",1013.9085210586,0,0
+"Antinematodal Agents",476.753021536036,0,0
+"Antineoplastic Agents",234.670741231784,0,0
+"Antineoplastic Agents, Phytogenic",1359.2134650985,0,0
+"Antiparasitic Agents",1782.78822802666,0,0
+"Antiprotozoal Agents",494.78387274976,0,0
+"Antithyroid Agents",1313.85361843201,0,0
+"Bone Density Conservation Agents",267.799490034051,0,0
+"Calcineurin Inhibitors",332.878413784405,0,0
+"Calcium Ionophores",2464.29845893833,0,0
+"Carcinogens",295.601715859618,0,0
+"Cathartics",2221.85618840593,0,0
+"Coccidiostats",244.163257682823,0,0
+"Coloring Agents",598.167113353372,0,0
+"Contraceptive Agents",400.547963759655,0,0
+"Cysteine Proteinase Inhibitors",10.9993544972812,0,0
+"Cytochrome P-450 CYP2C19 Inhibitors",478.232952643473,0,0
+"Cytochrome P-450 CYP2C9 Inhibitors",753.779392303999,0,0
+"Dermatologic Agents",208.165601292378,0,0
+"Emetics",1502.95281088656,0,0
+"Fatty Acid Synthesis Inhibitors",1202.24705662838,0,0
+"Fibrinolytic Agents",193.613642446506,0,0
+"Free Radical Scavengers",772.950125637677,0,0
+"Histone Deacetylase Inhibitors",1593.79866292608,0,0
+"Immunosuppressive Agents",156.173791533667,0,0
+"Insecticides",541.317995116155,0,0
+"Intercalating Agents",3764.11435495577,0,0
+"Mutagens",1705.25887650899,0,0
+"Nucleic Acid Synthesis Inhibitors",650.210464761414,0,0
+"Protein Kinase Inhibitors",684.945090423032,0,0
+"Protein Synthesis Inhibitors",961.030086747264,0,0
+"Proton Ionophores",3449.359363289,0,0
+"Radiation-Protective Agents",112.269388928255,0,0
+"Radiation-Sensitizing Agents",1086.49552416887,0,0
+"Selective Estrogen Receptor Modulators",236.558823793712,0,0
+"Topoisomerase I Inhibitors",3941.03735298579,0,0
+"Topoisomerase II Inhibitors",634.239456054008,0,0
+"Trypanocidal Agents",831.416364650819,0,0
+"Tubulin Modulators",116.170678901672,0,0
+"Uncoupling Agents",957.541626947688,0,0
+"Abortifacient Agents, Nonsteroidal",-225.748180540875,1,1
+"Adjuvants, Anesthesia",-2243.13274693969,1,1
+"Adjuvants, Immunologic",-2019.9321983394,1,1
+"Adrenergic Agents",-659.768848150236,1,1
+"Adrenergic alpha-1 Receptor Agonists",-3654.11540972101,1,1
+"Adrenergic alpha-1 Receptor Antagonists",-2129.64762146584,1,1
+"Adrenergic alpha-2 Receptor Agonists",-1053.34348041753,1,1
+"Adrenergic alpha-2 Receptor Antagonists",-2035.78298098862,1,1
+"Adrenergic alpha-Agonists",-1963.19029557906,1,1
+"Adrenergic alpha-Antagonists",-1669.98008990258,1,1
+"Adrenergic beta-1 Receptor Agonists",-1109.25635110549,1,1
+"Adrenergic beta-1 Receptor Antagonists",-2352.51805937517,1,1
+"Adrenergic beta-2 Receptor Agonists",-1655.72755872241,1,1
+"Adrenergic beta-Agonists",-2998.40985072906,1,1
+"Adrenergic beta-Antagonists",-2138.21635161354,1,1
+"Adrenergic Uptake Inhibitors",-1407.39352551087,1,1
+"Amebicides",-1056.7487159906,1,1
+"Anabolic Agents",-403.391607729926,1,1
+"Analgesics",-368.488528927734,1,1
+"Analgesics, Non-Narcotic",-1601.03447200396,1,1
+"Analgesics, Opioid",-2393.76775065139,1,1
+"Androgen Antagonists",-1174.72595153117,1,1
+"Androgens",-545.324765605727,1,1
+"Anesthetics, Intravenous",-2270.52109754272,1,1
+"Anesthetics, Local",-744.78526934046,1,1
+"Angiogenesis Inhibitors",-361.701608587688,1,1
+"Angiotensin II Type 1 Receptor Blockers",-477.06727817205,1,1
+"Angiotensin-Converting Enzyme Inhibitors",-3120.94213449969,1,1
+"Anti-Allergic Agents",-666.976835123942,1,1
+"Anti-Anxiety Agents",-2662.08634737773,1,1
+"Anti-Arrhythmia Agents",-1938.50217019237,1,1
+"Anti-Asthmatic Agents",-2229.20413601389,1,1
+"Anti-Bacterial Agents",-791.604963700629,1,1
+"Anti-HIV Agents",-2413.82162627168,1,1
+"Anti-Infective Agents",-364.273794679273,1,1
+"Anti-Infective Agents, Urinary",-942.239801983449,1,1
+"Anti-Inflammatory Agents",-848.23228183201,1,1
+"Anti-Inflammatory Agents, Non-Steroidal",-738.242688350201,1,1
+"Anti-Ulcer Agents",-1993.33726600118,1,1
+"Antibiotics, Antitubercular",-162.175919679107,1,1
+"Anticarcinogenic Agents",-1568.19674580885,1,1
+"Anticholesteremic Agents",-1059.17915445279,1,1
+"Anticonvulsants",-1506.31772017414,1,1
+"Antidepressive Agents",-1355.58945431255,1,1
+"Antidepressive Agents, Second-Generation",-1034.47589133536,1,1
+"Antidepressive Agents, Tricyclic",-1656.3284386813,1,1
+"Antidiarrheals",-2774.13129473419,1,1
+"Antidotes",-468.771076979384,1,1
+"Antiemetics",-2183.39420001371,1,1
+"Antihypertensive Agents",-1606.5015787571,1,1
+"Antimalarials",-1259.3046913587,1,1
+"Antimetabolites",-1511.35849767251,1,1
+"Antineoplastic Agents, Alkylating",-752.720330362075,1,1
+"Antineoplastic Agents, Hormonal",-974.880964731751,1,1
+"Antioxidants",-1082.42364071224,1,1
+"Antiparkinson Agents",-1689.59551762748,1,1
+"Antipruritics",-905.00681526951,1,1
+"Antipsychotic Agents",-999.140485628279,1,1
+"Antipyretics",-863.73398268055,1,1
+"Antirheumatic Agents",-647.485103491583,1,1
+"Antitubercular Agents",-1907.30773234987,1,1
+"Antitussive Agents",-1721.71531787316,1,1
+"Antiviral Agents",-517.078005908599,1,1
+"Appetite Depressants",-2651.66858819269,1,1
+"Aromatase Inhibitors",-1353.52724643105,1,1
+"Bronchodilator Agents",-1759.18861201767,1,1
+"Calcium Channel Agonists",-2404.11074733168,1,1
+"Calcium Channel Blockers",-850.569689256108,1,1
+"Cannabinoid Receptor Agonists",-2796.58573419372,1,1
+"Carbonic Anhydrase Inhibitors",-2375.01240226313,1,1
+"Cardiotonic Agents",-43.5498524123071,1,1
+"Cardiovascular Agents",-645.395744188217,1,1
+"Catechol O-Methyltransferase Inhibitors",-2831.36628699358,1,1
+"Central Nervous System Stimulants",-2780.04409340209,1,1
+"Chelating Agents",-1321.95782851463,1,1
+"Cholagogues and Choleretics",-570.495002334535,1,1
+"Cholinergic Antagonists",-2487.11317193624,1,1
+"Cholinesterase Inhibitors",-2187.71369784659,1,1
+"Contraceptives, Oral, Synthetic",-1136.16370975539,1,1
+"Contrast Media",-1650.5567033241,1,1
+"Convulsants",-2166.51064038614,1,1
+"Cross-Linking Reagents",-1028.21473034622,1,1
+"Cyclooxygenase 2 Inhibitors",-1315.50739685394,1,1
+"Cyclooxygenase Inhibitors",-812.105602683389,1,1
+"Cytochrome P-450 CYP1A2 Inhibitors",-1174.92892617322,1,1
+"Cytochrome P-450 CYP2D6 Inhibitors",-911.696078463305,1,1
+"Cytochrome P-450 CYP3A Inducers",-896.086647236278,1,1
+"Cytochrome P-450 CYP3A Inhibitors",-736.238120471857,1,1
+"Detergents",-654.518787459777,1,1
+"Diuretics",-2508.58024389818,1,1
+"Dopamine Agents",-2272.03476879322,1,1
+"Dopamine Agonists",-1040.57642059199,1,1
+"Dopamine Antagonists",-1049.73789200103,1,1
+"Dopamine D2 Receptor Antagonists",-1608.42430622596,1,1
+"Dopamine Uptake Inhibitors",-1689.2038098826,1,1
+"Enzyme Inhibitors",-489.829474611489,1,1
+"Estrogen Antagonists",-548.725733083593,1,1
+"Estrogens",-2337.0296872643,1,1
+"Estrogens, Non-Steroidal",-1401.83916811194,1,1
+"Excitatory Amino Acid Antagonists",-1227.45070186171,1,1
+"Expectorants",-2031.06278079151,1,1
+"Folic Acid Antagonists",-605.005309170599,1,1
+"GABA Antagonists",-725.451832367424,1,1
+"GABA Modulators",-3408.877637911,1,1
+"Ganglionic Blockers",-1220.13378165271,1,1
+"Gastrointestinal Agents",-1199.05576959855,1,1
+"Glucocorticoids",-778.041114991685,1,1
+"Glycoside Hydrolase Inhibitors",-2469.59927666888,1,1
+"Gout Suppressants",-1512.14422066641,1,1
+"Histamine Agonists",-2828.66205068343,1,1
+"Histamine Antagonists",-2974.53709746574,1,1
+"Histamine H1 Antagonists",-1689.99767140246,1,1
+"Histamine H1 Antagonists, Non-Sedating",-0.884342394860912,1,1
+"Histamine H2 Antagonists",-2871.51447542664,1,1
+"Histamine H3 Antagonists",-1602.48656723131,1,1
+"HIV Protease Inhibitors",-657.875378645145,1,1
+"Hormone Antagonists",-294.85390354837,1,1
+"Hydroxymethylglutaryl-CoA Reductase Inhibitors",-460.117927374618,1,1
+"Hypnotics and Sedatives",-2631.22753682575,1,1
+"Hypoglycemic Agents",-1569.33531399653,1,1
+"Hypolipidemic Agents",-1933.45058058066,1,1
+"Immunologic Factors",-2819.46495399829,1,1
+"Indicators and Reagents",-1146.96892407716,1,1
+"Keratolytic Agents",-935.535230437374,1,1
+"Leprostatic Agents",-2231.41688226081,1,1
+"Leukotriene Antagonists",-2389.14538087473,1,1
+"Lipoxygenase Inhibitors",-2765.78726806405,1,1
+"Mineralocorticoid Receptor Antagonists",-1615.66870867052,1,1
+"Miotics",-1065.59791295379,1,1
+"Monoamine Oxidase Inhibitors",-1326.16556382808,1,1
+"Muscarinic Agonists",-156.345328312892,1,1
+"Muscarinic Antagonists",-1998.60079431166,1,1
+"Muscle Relaxants, Central",-905.970488702534,1,1
+"Mydriatics",-3137.51535103381,1,1
+"Myeloablative Agonists",-1086.94007109553,1,1
+"Narcotic Antagonists",-1375.5486366864,1,1
+"Narcotics",-2914.45597327716,1,1
+"Nasal Decongestants",-2436.82911161634,1,1
+"Neuromuscular Nondepolarizing Agents",-2123.83190883331,1,1
+"Neuroprotective Agents",-1447.78469126189,1,1
+"Neurotransmitter Uptake Inhibitors",-1437.5401098498,1,1
+"Nicotinic Agonists",-2867.28355626493,1,1
+"Nicotinic Antagonists",-2089.40505812605,1,1
+"Nootropic Agents",-1009.68043657944,1,1
+"Oxytocics",-1740.61244092319,1,1
+"Parasympatholytics",-1511.2582920934,1,1
+"Parasympathomimetics",-417.84387583395,1,1
+"Phosphodiesterase 5 Inhibitors",-2503.86919974025,1,1
+"Phosphodiesterase Inhibitors",-853.005827049421,1,1
+"Photosensitizing Agents",-2477.59992103614,1,1
+"Phytoestrogens",-2329.97998066963,1,1
+"Plant Growth Regulators",-2401.07902428315,1,1
+"Platelet Aggregation Inhibitors",-925.956843643841,1,1
+"Potassium Channel Blockers",-989.971478654726,1,1
+"Progestins",-1839.63564711391,1,1
+"Protease Inhibitors",-3529.52441014047,1,1
+"Proton Pump Inhibitors",-1215.88046841251,1,1
+"Purinergic P1 Receptor Antagonists",-4000.92191532322,1,1
+"Respiratory System Agents",-3630.76210240847,1,1
+"Reverse Transcriptase Inhibitors",-2387.66803405968,1,1
+"Schistosomicides",-2037.51240579113,1,1
+"Serotonin Antagonists",-1318.78241093999,1,1
+"Serotonin Receptor Agonists",-2427.09298141529,1,1
+"Serotonin Uptake Inhibitors",-1553.66756096377,1,1
+"Sodium Chloride Symporter Inhibitors",-1698.35650457943,1,1
+"Sodium Potassium Chloride Symporter Inhibitors",-1263.20713205656,1,1
+"Solvents",-194.820372079071,1,1
+"Sympatholytics",-1817.35493468936,1,1
+"Sympathomimetics",-2962.44119681439,1,1
+"Teratogens",-575.137091103025,1,1
+"Tocolytic Agents",-1389.30315443672,1,1
+"Uricosuric Agents",-2789.40081634811,1,1
+"Urological Agents",-1851.60201525964,1,1
+"Vasoconstrictor Agents",-1765.49707469226,1,1
+"Vasodilator Agents",-1345.26786669053,1,1
+"Vitamin B Complex",-1193.0365368437,1,1
+"Vitamins",-686.268791609222,1,1
+"Voltage-Gated Sodium Channel Blockers",-2671.04191787938,1,1

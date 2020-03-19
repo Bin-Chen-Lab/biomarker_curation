@@ -9,6 +9,7 @@ patient_biomarker = NULL
 
 #map breast cancer tcga
 biomarker_records = biomarker_records[biomarker_records$diseases_id_standard == "MONDO_0007254", ]
+biomarker_records = biomarker_records[!is.na(biomarker_records$biomarker),]
 for (i in 1:nrow(biomarker_records)){
   record_id = biomarker_records$record_id[i]
   biomarker_types = unlist(strsplit(biomarker_records$biomarker_type[i], ",|，"))

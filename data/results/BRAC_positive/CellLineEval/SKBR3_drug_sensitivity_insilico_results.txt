@@ -1,0 +1,26 @@
+[1] "AUC cortest"
+
+	Pearson's product-moment correlation
+
+data:  testdf2$sRGES and testdf2[, 8]
+t = -3.0378, df = 49, p-value = 0.003814
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.6070770 -0.1376078
+sample estimates:
+       cor 
+-0.3980948 
+
+[1] "IC50 cortest"
+
+	Pearson's product-moment correlation
+
+data:  testdf$sRGES and log10(testdf$medIC50)
+t = 4.5802, df = 92, p-value = 1.454e-05
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.2501359 0.5826583
+sample estimates:
+      cor 
+0.4309134 
+

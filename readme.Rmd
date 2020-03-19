@@ -8,12 +8,16 @@
 ----collector_breast_cancer.R: collect breast cancer features
 ----mapper_patient2biomarker.R: match patients to biomarkers (only for breast cancer TCGA data)
 
+----cases/breast_cancer_mutant_example.Rmd: predict drugs for patients with/without BRCA mutation
+
 -data
 ----curation: raw tables from curators
 ----parsed: parsed tables
 ----merged: merged table
 ----released: released data (db or json)
 ----support: supporting data
+----results/BRAC_positive: drug predictions for patients with BRCA mutation
+----results/BRAC_negative: drug predictions for patients without BRCA mutation
 
 -doc
 ----supporting documents
@@ -52,71 +56,63 @@ Drug, Disease, Enrichment biomarker, Biomarker relationship,	Biomarker logical c
 
 #################
 #JSON format
-{
-  "biolink:id": "FDA0001",
-  "biolink:name": "FDAbiomarker1",
-  "biolink:type": "biomarker",
-  "curator": [
-    {
-      "biolink:name": "Ben Feng",
-      "biolink:update_date": "2020-02-22T19:41:44.731Z",
-      "biolink:comment": "" 
-    }
-  ],
-  "biolink:has_drug": [
-    {
-      "biolink:id": [
-        {
-          "biolink:source_data_file": "Drugbank",
-          "code": "DB01048",
-          "biolink:versionOf": ""
+ {
+        "biolink:id": "BiomarkerKG594659457",
+        "biolink:name": "ABACAVIR treat AIDS with HLA-B POLYMORPHISM NA",
+        "biolink:type": "biomarker",
+        "biomarker_term": "HLA-B POLYMORPHISM NA",
+        "curator": {
+            "biolink:name": "Ben",
+            "biolink:update_date": "Fri Mar 13 12:10:42 2020",
+            "biolink:comment": ""
+        },
+        "biolink:has_drug": [
+            {
+                "biolink:id": {
+                    "biolink:source_data_file": "Drugbank",
+                    "code": "DB01048",
+                    "biolink:versionOf": ""
+                },
+                "biolink:id": {
+                    "biolink:source_data_file": "PubChem",
+                    "code": "441300",
+                    "biolink:versionOf": ""
+                },
+                "biolink:name": "ABACAVIR",
+                "biolink:type": "biolink:drug"
+            }
+        ],
+        "biolink:has_disease": [
+            {
+                "biolink:id": {
+                    "biolink:source_data_file": "EFO",
+                    "code": "EFO_0000765",
+                    "biolink:versionOf": ""
+                },
+                "biolink:name": "AIDS",
+                "biolink:type": "biolink:disease"
+            }
+        ],
+        "biolink:has_molecular_entity": [
+            {
+                "biolink:id": {
+                    "biolink:source_data_file": "ensembl",
+                    "code": "ENSG00000234745",
+                    "biolink:versionOf": ""
+                },
+                "biomarker_name": "HLA-B polymorphism NA",
+                "biomarker_type": "polymorphism",
+                "biomarker_direction": "NA",
+                "biolink:name": "HLA-B",
+                "biolink:type": "biolink:molecular entity"
+            }
+        ],
+        "biolink:has_evidence": {
+            "biolink:id": "https://www.fda.gov/media/124784/download",
+            "EvidenceType": "FDA",
+            "biolink:comment": ""
         }
-       "biolink:id": [
-        {
-          "biolink:source_data_file": "PubChem",
-          "code": "29969962",
-          "biolink:versionOf": ""
-        }
-      ],
-      "biolink:name": "Abacavir",
-      "biolink:type": "biolink:drug"
     },
-  ],
-    
-  "has_disease": [
-    {
-      "biolink:id": [
-        {
-          "biolink:source_data_file": "EFO",
-          "code": "EFO_0005741",
-          "biolink:source_version": ""
-        }
-      ],
-      "biolink:name": "Infectious disease/ADIS",
-      "biolink:type": "biolink:disease",
-      "biolink:comment": ""
-    }
-  ],
-  "has_molecular_entity": [
-    {
-      "biolink:id": [
-      {
-         "biolink:source_data_file": "NCBI Entrez",
-         "code": "ENSG00000234745"
-       },
-      "biolink:name": "HLA-B",
-      "biolink:type": "polymorphism",
-      "biolink:relation": "NA"
-    }
-    ],
 
-  "biolink:has_evidence": [
-    {
-      "biolink:id": "",
-      "biolink:EvidenceType": "FDA",
-      "biolink:comment": ""
-    }
-  ]
-}
 
 ################
