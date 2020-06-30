@@ -45,4 +45,4 @@ for (i in 1:nrow(biomarker_records)){
   }
 }
 
-write.csv(patient_biomarker, "data/released/db/patient.csv", row.names = F)
+write.csv(patient_biomarker, "data/released/db/patient.csv", row.names = F, na = "\\N")

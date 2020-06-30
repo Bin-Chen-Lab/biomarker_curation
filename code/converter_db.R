@@ -57,8 +57,8 @@ for (i in 1:nrow(biomarker_all)){
 }
 
 
-write.csv(biomarker_record_tb, "data/released/db/biomarker_record.csv", row.names = F)
-write.csv(biomarker_tb, "data/released/db/biomarker.csv", row.names = F)
-write.csv(drug_tb, "data/released/db/drug.csv", row.names = F)
-write.csv(disease_tb, "data/released/db/disease.csv", row.names = F)
+write.csv(biomarker_record_tb, "data/released/db/biomarker_record.csv", row.names = F, na = "\\N")
+write.csv(biomarker_tb, "data/released/db/biomarker.csv", row.names = F, na = "\\N")
+write.csv(drug_tb, "data/released/db/drug.csv", row.names = F, na = "\\N")
+write.csv(disease_tb, "data/released/db/disease.csv", row.names = F, na = "\\N")
 
